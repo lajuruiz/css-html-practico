@@ -1,0 +1,145 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html {
+    height: 100%;
+}
+
+body {
+min-height: 100%;
+}
+
+body{
+    background-color: rgb(46, 46, 46);
+    font-family: 'Poppins';
+    color: white;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction:column;
+}
+
+header {
+    display: flex;
+    justify-content:end;
+    font-size: 16px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    margin:15px;
+}
+
+li{
+    margin-right: 5px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited, a:link{
+    color: white;
+}
+
+.main__container{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo__google{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.barra__navegacion{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 400px;
+    height: 30px;
+    margin: 0 auto;
+    border: white solid 2px;
+    border-radius: 30px;
+    padding: 3px;
+    margin-bottom: 20px;
+}
+form{
+    display: flex;
+    min-height: 100%;
+    flex-grow: 1;
+}
+
+.barra__navegacion>*{
+    max-height: 100%;
+    margin: 6px;
+}
+
+input{
+    min-height: 100%;
+    min-width: 100%;
+    flex-grow: 1;
+    background: none;
+    border: none;
+    color: white;
+}
+
+.buttom{
+    color:rgb(53, 51, 51);
+}
+
+
+footer{
+    background: #1a1a1a;
+    color: white
+}
+
+span{
+    font-size: 16px;
+    color:white ;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.title{
+    margin-top: 20px;
+}
+
+.first__line{
+    display: flex;
+    border: 1px solid;
+    border-radius: 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.first__list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.first__list li {
+    display: inline;
+    list-style: none;
+    margin: 15px;
+}
+
+.second__list{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.second__list li{
+    list-style: none;
+    display: inline;
+    margin: 15px;
+}
