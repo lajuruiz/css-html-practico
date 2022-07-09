@@ -7,39 +7,59 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Joan&display=swap" rel="stylesheet">
-    <link href="./style.css"rel="stylesheet">
+    <link href="./google clone/css/main.css"rel="stylesheet">
     <title> Google</title>
+    
 </head>
 <body>
     <header>
         <nav>
             <ul>
-                <li><a href="#">Gmail </a></li>
-                <li><a href="#">Imagenes </a></li>
-                <li><a href="#"><img src="./img/icons8-circled-menu-50.png" alt=""></a></li>
-                <li><a href="#"><img src="./img/inicia sesion.png" alt=""></a></li>
+                <li>
+                    <a class="link__list" href="#">Gmail </a>
+                </li>
+                <li>
+                    <a class="link__list"  href="#">Imagenes </a>
+                </li>
+                <li>
+                    <a class="icon__menu" href="#"><img src="./google clone/img/icons8-circled-menu-50.png"> </a>
+                </li>
+                <li>
+                    <a href="#"> <img src="https://lh3.googleusercontent.com/ogw/ADea4I7KP2v8lR0c5-Mv8B1xnmswUIkRxQw2NhvwBGcOJ10=s32-c-mo" alt=""></a>
+                </li>
             </ul>
         </nav>
     </header>
 
     <main class="main__container">
         <div class="logo__google">
-            <img src="./img/icono_google-removebg-preview (1).png" alt="imagen de google">
+            <img src="./google clone/img/icono_google-removebg-preview (1).png" alt="imagen de google">
         </div>
 
-        <div class="barra__navegacion">
-            <img src="./img/lens.png" alt="lupa para buscar">
+        <div class="main__search">
+            <img src="./google clone/img/lens.png" alt="">
             <form action="#">
                 <input type="text" id="buscador" name="buscador">
             </form>
-            <img src="./img/microphone.png" alt="microfono para grabar">
+            <a class="micro__icon" href=""></a>
+                <!-- <img src="./google clone/img/microphone.png" alt="microfono para grabar"> -->
         </div>
 
-        <div class="buttom">
-            <button>Buscar con Google </button>
-            <button> Me siento con suerte</button>
+        <div class="main__button">
+            <div>
+                <button>Buscar con Google </button>
+            </div>
+            <div>
+                <button> Me siento con suerte</button>
+            </div>
         </div>
-        <div class="title">
+        
+<!--         <div class="main__button">
+            <button>Buscar con Google </button>   
+            <button> Me siento con suerte</button>
+        </div> -->
+
+        <div class="main__title">
             <span> Ofrecido por Google en: English</span>
         </div>
     </main>
@@ -49,20 +69,19 @@
         <div class="first__line">
             <span>Colombia</span>
         </div>
+
         <div class="first__list"> 
             <ul>
-                <li><a href="#">Sobre Google </a></li>
-                <li><a href="#">Publicidad </a></li>
-                <li><a href="#">Negocios </a></li>
-                <li><a href="#">Como funciona la busqueda </a></li>
+                <li><a class="link__list" href="#">Sobre Google </a></li>
+                <li><a class="link__list" href="#">Publicidad </a></li>
+                <li><a class="link__list" href="#">Negocios </a></li>
+                <li><a class="link__list" href="#">Como funciona la busqueda </a></li>
             </ul>
-        </div>
-        <div class="second__list"> 
             <ul>
-                <li><a href="#">Privacidad </a></li>
-                <li><a href="#">Condiciones </a></li>
-                <li><a href="#">Preferencias</a></li>
-            </ul>
+                <li><a class="link__list" href="#">Privacidad </a></li>
+                <li><a class="link__list" href="#">Condiciones </a></li>
+                <li><a class="link__list" href="#">Preferencias</a></li>
+                </ul>
         </div>
     </footer>
 </body>

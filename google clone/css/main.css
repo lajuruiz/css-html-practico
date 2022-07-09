@@ -8,11 +8,8 @@ html {
     height: 100%;
 }
 
-body {
-min-height: 100%;
-}
-
 body{
+    font-size: 16px;
     background-color: rgb(46, 46, 46);
     font-family: 'Poppins';
     color: white;
@@ -24,7 +21,7 @@ body{
 
 header {
     display: flex;
-    justify-content:end;
+    justify-content:flex-end;
     font-size: 16px;
 }
 
@@ -36,17 +33,29 @@ nav ul{
     margin:15px;
 }
 
-li{
-    margin-right: 5px;
-}
-
 a{
+    margin-right: 5px;
     text-decoration: none;
 }
 
 a:visited, a:link{
     color: white;
 }
+
+li img{
+    border-radius: 19px;
+    width: 36px;
+    height: 34px;
+}
+
+/* .icon__menu{
+    background-image: url(image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+} */
 
 .main__container{
     display: flex;
@@ -61,14 +70,14 @@ a:visited, a:link{
     align-items: center;
 }
 
-.barra__navegacion{
+.main__search{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 400px;
-    height: 30px;
+    width: 577px;
+    height: 43px;
     margin: 0 auto;
-    border: white solid 2px;
+    border: rgba(255, 255, 255, 0.572) solid 1px;
     border-radius: 30px;
     padding: 3px;
     margin-bottom: 20px;
@@ -77,9 +86,10 @@ form{
     display: flex;
     min-height: 100%;
     flex-grow: 1;
+    border: 0;
 }
 
-.barra__navegacion>*{
+.main__search>*{
     max-height: 100%;
     margin: 6px;
 }
@@ -93,7 +103,7 @@ input{
     color: white;
 }
 
-.buttom{
+.main__button{
     color:rgb(53, 51, 51);
 }
 
@@ -110,7 +120,7 @@ span{
     margin-bottom: 10px;
 
 }
-.title{
+.main__title{
     margin-top: 20px;
 }
 
@@ -120,11 +130,15 @@ span{
     border-radius: 1px;
     margin-top: 10px;
     margin-bottom: 10px;
+    border: none;
+    margin: 13px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.308);
 }
 
 .first__list{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 12px;
 }
 
 .first__list li {
@@ -133,13 +147,13 @@ span{
     margin: 15px;
 }
 
-.second__list{
-    display: flex;
-    justify-content: flex-end;
+a.link__list:hover{
+    color: white;
+    text-decoration: underline;
 }
 
-.second__list li{
-    list-style: none;
-    display: inline;
-    margin: 15px;
+button{
+    padding: 10px;
+    color: white;
+    background-color:#414040;
 }
